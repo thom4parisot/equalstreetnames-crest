@@ -1,8 +1,8 @@
 name: Update data
 
 on:
-  # schedule:
-  #   - cron:
+  schedule:
+    - cron: "15 0 2 * *"
   workflow_dispatch:
   push:
     paths:
